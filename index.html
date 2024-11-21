@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel In Indonesia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Travel In Indonesia</div>
+      <ul class="nav-links active">
+        <li class="nav-item mx-0 mx-1g-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded active" href="#destinations">Destinations</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Explore the Indonesia with Us</h1>
+      <p>Your next adventure is just a click away.</p>
+      <button onclick="scrollToSection('destinations')">Discover Destinations</button>
+    </div>
+  </section>
+
+  <section id="destinations" class="destinations">
+    <h2>Popular Destinations</h2>
+    <div class="destinations-grid">
+      <div class="card">
+        <img src="foto/KLYR.jpg" alt="Destination 1">
+        <h3>Pantai Klayar, Pacitan</h3>
+        <p>Enjoy the beautiful beaches.</p>
+      </div>
+      <div class="card">
+        <img src="foto/komodo.jpeg" alt="Destination 2">
+        <h3>Komodo Island, Nusa Tenggara</h3>
+        <p>The Island is habited by Komodo and is an amazing destinations.</p>
+      </div>
+      <div class="card">
+        <img src="foto/kuta.jpg" alt="Destination 3">
+        <h3>Pantai Kuta, Bali</h3>
+        <p>Beach in Bali with beautiful white sand and blue water .</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>travel in Indonesia, we want to show you the beauty of tourism in Indonesia, our packages ensure your trip is smooth and satisfying.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Stay Connected</h2>
+    <form id="newsletterForm">
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Travel In Indonesia. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
